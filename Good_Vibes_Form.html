@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title> Good Vibes Form </title>
+        <!--<center><h1>Good Vibes Form<br></h1>
+            <h5>Tell us something that happened to you today</h5></center> 
+            -this brings heading to center but overall look is not good.
+            So we can either leave it or add center tag to body.-->
+        <h1>Good Vibes Form<br></h1>
+        <h5>Tell us something that happened to you today</h5>
+    </head>
+    <body>
+        <table>
+            <!-- As border is not specified,no border will appear -->
+            <tr>
+                <td>Name</td>
+                <td><input type="text" name="Name" placeholder="Enter your name"/></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="Email" placeholder="Enter your email address"/></td>
+            </tr>
+            <tr>
+                <td>On scale of 1-10,how good was it?</td>
+                <td><input type="number" name="Rating" placeholder="Select between 1-10"/></td>
+            </tr>
+            <tr>
+                <td>Where did it happen?</td>
+                <td><select>
+                    <option value="null">Select</option>/>
+                    <option value="HOME">HOME</option>/>
+                    <option value="OFFICE">OFFICE</option>/>
+                    <option value="FRIENDS PLACE">FRIENDS PLACE</option>/>
+                    <option value="ROAD">ROAD</option>/>
+                    <option value="OTHER PLACE">OTHER PLACE</option>/>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Date</td>
+                <td><input type="date" name="date"/></td>
+            </tr>
+            <tr>
+                <td>At what time of day did it happen?</td>
+                <td><input type="radio" name="time"/>Morning<br>
+                <input type="radio" name="time"/>Afternoon<br>
+                <input type="radio" name="time"/>Evening</td>
+            </tr>
+            <tr>
+                <td>What emotions did you experience?<br>(select all that apply)</td>
+                <td><input type="checkbox" name="emotions"/>Excited<br>
+                    <input type="checkbox" name="emotions"/>Humbled<br>
+                    <input type="checkbox" name="emotions"/>Loved<br>
+                    <input type="checkbox" name="emotions"/>Enthusiastic<br>
+                    <input type="checkbox" name="emotions"/>Elited
+                </td>
+            </tr>
+            <tr>
+                <td>Please describe your positive experience.</td>
+                <td><textarea cols="25" rows="3"></textarea></td>
+            </tr>
+        </table>
+        <br>
+        <input type="submit" value="Submit"/>
+    </body>
+</html>
